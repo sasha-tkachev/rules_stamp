@@ -5,12 +5,11 @@
 ```py
 http_archive(
     name = "rules_stamp",
-    url = "https://github.com/ecosia/rules_stamp/archive/48d5ef2bc0d93bd65fddddbe02f3ae410e25169d.tar.gz",
-    strip_prefix = "rules_stamp-48d5ef2bc0d93bd65fddddbe02f3ae410e25169d",
+    url = "https://github.com/sasha-tkachev/rules_stamp/archive/6cf5018cd384afe4bd43f4a0eeb414af03451115.tar.gz",
+    strip_prefix = "rules_stamp-6cf5018cd384afe4bd43f4a0eeb414af03451115.tar.gz",
     sha256 = "357ae4ba73e465f692c5de911581c8981f30d6eecf5278f40b3f800ca12e6706",
 )
 ```
-
 ## Rules
 
 ### stamp
