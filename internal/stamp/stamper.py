@@ -48,8 +48,10 @@ def main():
                  'using "%s"' % (key, value))
         format_args[key] = value
   with open(args.output, 'w') as f:
-    f.write(args.format.format(**format_args))
-
+    try:
+      f.write(args.format.format(**format_args))
+    except KeyError:
+      f.write("")
 
 if __name__ == '__main__':
   main()
